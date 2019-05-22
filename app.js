@@ -10,4 +10,11 @@ console.log(addition(9,8));
 var addition = function(a,b){
     return a+b;
 }
-console.log(addition(10,9));
+console.log(addition(10,9))
+// call back function
+var timer = function(){
+    console.log('Hello world')
+}
+setTimeout(timer,10000);
+var button = document.getElementById('btn');
+button.addEventListener("click",() => document.getElementById('ppp').innerHTML = 'Hi Sai Pavan');
