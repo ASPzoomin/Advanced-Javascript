@@ -18,3 +18,10 @@ var timer = function(){
 setTimeout(timer,10000);
 var button = document.getElementById('btn');
 button.addEventListener("click",() => document.getElementById('ppp').innerHTML = 'Hi Sai Pavan');
+//IIFE
+(function (){
+    console.log("Invoked Immediately");
+})();
+(foo = function(n=3){
+    console.log("the number is "+ n);
+})();
